@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NeDrom</title>
+</head>
+<body>
+    <table cellspacing="10">
+        <td><img src="corolla.jpg" width="450" height="170" alt="Фотография машины"/></td>
+        <td><h1>
+            Toyota Corolla
+        </h1>
+        <p><em>Хорошая<strong> жоповозка</strong></em></p>
+        <p>Топ за свои деньги!</p></td>
+    </table>
+    
+    <hr size="1" color="red" />
+
+    <table>
+        <tr>
+        <th><h1>Цена <strong>190.500</strong></h1></th>
+        </tr>
+    </table>
+
+
+
+<hr size="1" color="red"/>
+
+<table cellspacing="10"> 
+    <td>
+     <h2>Описание</h2>
+     Использовалась не часто, держали в хорошом состояние.
+     <br>
+     Зимой не ездили, пороги не гнилые и между прочем один хозяин, дед. <strong>БЫЛ.</strong>
+     <br>
+ Продаю из за ненадобности.
+    </td>
+   </table>
+
+
+<hr size="1" color="red"/>
+
+
+<h2>Комментарий</h2>
+
+    <label for="name">Введите имя:</label>
+    <input type="text" id="name" placeholder="Введите имя">
+<br>
+<br>
+    <label for="email">Введите email:</label>
+    <input type="text" id="email" placeholder="Введите ваш email">
+    
+    <br>
+    <br>
+    <label for="text">Задайте вопрос владельцу:</label>
+    <br>
+    <br>
+<textarea id="text" cols="30" rows="3"></textarea>
+   <br>
+   <br> 
+<input type="submit" value="Связаться!">
+<br>
+<input type="checkbox" value="sss">
+</form>
+
+<hr size="1" color="red"/>
+<h2>Контакты владельца</h2>
+<table cellpadding='10' border='1'>
+   
+    <tr>
+        <th>Teлефон</th>
+        <th>Email</th>
+        <th>Ссылка на вк</th>
+    </tr>
+    <tr>
+   <th>88805553555</th>
+    <th>neprodamcorolly@mama.cot</th>
+    <th><a href="info">Вася пупки</a></th>
+    <tr/>
+</table>
+</body>
+</html>
